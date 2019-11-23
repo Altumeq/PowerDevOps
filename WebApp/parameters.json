@@ -1,0 +1,33 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "subscriptionId": {
+            "value": "b2c96920-c44e-46b3-9968-b357f166d15d"
+        },
+        "name": {
+            "value": "myapptest125"
+        },
+        "location": {
+            "value": "Central US"
+        },
+        "hostingEnvironment": {
+            "value": ""
+        },
+        "hostingPlanName": {
+            "value": "pipa01"
+        },
+        "serverFarmResourceGroup": {
+            "value": "User4"
+        },
+        "alwaysOn": {
+            "value": true
+        },
+        "currentStack": {
+            "value": "dotnetcore"
+        },
+        "errorLink": {
+            "value": "https://myapptest125.scm.azurewebsites.net/detectors"
+        }
+    }
+}
